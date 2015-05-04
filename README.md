@@ -18,7 +18,7 @@ This script creates and plots Figure 3 from our Epidemics paper. It calls params
 ####Figure5script
 This script creates and plots Figure 5 from our Epidemics paper. It calls paramsets, TrtEffvsDurPlot and adjust_delta.
 
-#####hcvhivThIcVc, hcvhivThIc, hcvhivThIcVcDecay
+####hcvhivThIcVc, hcvhivThIc, hcvhivThIcVcDecay
 These functions contain the model ordinary differential equations (ODEs) for the standard, the quasi-steady state approximation, and standard with decay of treatment efficacy versions of the model, respectively. They take as input a time point, a population vector, and a parameter set, and output the evalution of the ODEs.
 
 ####paramsets
