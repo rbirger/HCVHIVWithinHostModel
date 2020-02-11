@@ -24,7 +24,7 @@ These functions contain the model ordinary differential equations (ODEs) for the
 ### paramsets
 This script populates all the parameter sets used in creating figures 2-6.
 
-### SimulateTreatmentDurations,SimulateTreatmentDurationsDecay
+### SimulateTreatmentDurations, SimulateTreatmentDurationsDecay
 These functions simulate viral dynamics for a given treatment efficacy and a short and long treatment duration under 3 different HIV scenarios (HIV negative, reduced CD4 and severely immunocompromised). They take as input symbolic equilibrium formulae, a parameter set, durations, CD4 counts and HIV viral load. They call adjust_delta and VLplot or VLplotDecay, respectively,  and output time and population vectors for each scenario. SimulateTreatmentDurationsDecay performs these simulations using the assumption of treatment efficacy decay over time.
 
 ### TrtEffvsDurPlot
